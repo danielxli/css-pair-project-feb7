@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
   </head>
-  <body>
-    <header id='header' class="container">
+  <body class="container">
+    <header id='header' class="container twelve columns">
       <div class="nine columns" id="logo-box">
         <img src="assets/logo.png" alt="" />
         <div id='logo-text'>
@@ -33,60 +33,78 @@
         </ul>
       </nav>
     </header>
-    <main class="container">
+    <main class="container twelve columns">
       <hr />
 
       <section class="twelve columns" id="article">
         <div id="title-box">
-          <h2>Article Title</h2>
-          <h3>Article Subtext</h3>
-          <button>Print</button>
+          <div id="title-text" class="ten columns">
+          <h2>Chocolate Pizza</h2>
+          <h3>POSTED ON 7 FEB 2016 / DESSERTS</h3>
+          </div>
+          <div class="one column">
+            <button>Print</button>
+          </div>
         </div>
         <div id="image-box">
           <img src="assets/choco-pizza.png" alt="" />
         </div>
-        <div id="article-text">
+        <div class="twelve columns" id="article-text">
+          <br>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Let’s see what Chef Dee got that they don’t want us to eat. You do know, you do know that they don’t want you to have lunch. I’m keeping it real with you, so what you going do is have lunch. The first of the month is coming, we have to get money, we have no choice. It cost money to eat and they don’t want you to eat. Cloth talk. Lion!
+          </p>
+          <p>
+            The key to success is to keep your head above the water, never give up. Stay focused. The other day the grass was brown, now it’s green because I ain’t give up. Never surrender. They don’t want us to win. It’s important to use cocoa butter. It’s the key to more success, why not live smooth? Why live rough?
+          </p>
+          <p>
+            Every chance I get, I water the plants, Lion! Find peace, life is like a water fall, you’ve gotta flow. Bless up. It’s important to use cocoa butter. It’s the key to more success, why not live smooth? Why live rough? How’s business? Boomin. Wraith talk. Cloth talk. They don’t want us to win. Celebrate success right, the only way, apple. We don’t see them, we will never see them. You smart, you loyal, you a genius. To succeed you must believe. When you believe, you will succeed.
           </p>
         </div>
-        <div class="container" id="recipe-background">
-          <ul>
-            <li>FB</li>
-            <li>TW</li>
-            <li>GP</li>
-            <li>IN</li>
-            <li>FLI</li>
-            <li>PI</li>
-            <li>RS</li>
-            <li>EM</li>
+        <div class="container twelve columns" id="recipe-background">
+          <ul class="five columns todo-list" >
+            <li>1 1/2 cups milk</li>
+            <li>1/2 cup mascarpone</li>
+            <li>1/2 tsp pink salt</li>
+            <li>1 lb Black Mission Figs</li>
+            <li>1/2 cup brown sugar</li>
+            <li>2-4 tbsp water</li>
+          </ul>
+          <ul class="five columns todo-list">
+            <li>1 1/2 cups heavy cream</li>
+            <li>1/3 cup granulated sugar</li>
+            <li>2 egg yolks</li>
+            <li>1 lemon, juiced</li>
+            <li>2 tbsp butter</li>
+            <li>1 cup honey roasted pecans, roughly chopped</li>
           </ul>
         </div>
       </section>
-      <hr>
 
-      <section id="about-author">
-        <img src="assets/van-pic.png" alt="" />
-        <h3>Vanessa Stevenson</h3>
-        <p>
-          Food enthusiast
-        </p>
-        <button type="button">SHARE RECIPE</button>
+      <section class="container twelve columns" id="about-author">
+        <hr />
+        <div class="nine columns"  id="author-pic">
+          <img src="assets/djkhaled.jpg" alt="" />
+          <div id="author-text">
+            <h3>Khaled bin Abdul Khaled</h3>
+            <p>
+              Food enthusiast, photography fan. Add a pinch of raw foodism and that’s pretty much who I am. Major Key.
+            </p>
+          </div>
+        </div>
+        <div class="one columns">
+          <button type="button" id='share-button'>SHARE RECIPE</button>
+        </div>
       </section>
-
     </main>
 
-
-    <footer class="container">
-
-      <img src="assets/small-logo.png" alt="" />
+    <footer class="container twelve columns">
+      <hr>
       <p>
         Delicious 2013. All rights reserved
-      </p>
-      <p>
+      <br>
         Proudly published with Steph and Dan
       </p>
-
     </footer>
   <script src="js/app.js" charset="utf-8"></script>
   </body>
