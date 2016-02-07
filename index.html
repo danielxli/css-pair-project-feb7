@@ -3,12 +3,91 @@
   <head>
     <meta charset="utf-8">
     <title>Page!</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="vendors/normalize.css">
+    <link rel="stylesheet" href="vendors/skeleton.css">
+    <link rel="stylesheet" href="vendors/animate.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <p>
-      Test.
-    </p>
+    <header id='header' class="container">
+      <div class="nine columns" id="logo-box">
+        <img src="assets/logo.png" alt="" />
+        <div id='logo-text'>
+          <h1>Delicious</h1>
+          <h3>THE BEST FOOD BLOG ON THE WEB</h3>
+        </div>
+      </div>
+      <nav class="three columns" >
+        <ul>
+          <li><img src="assets/fb-icon.png" alt="" /></li>
+          <li><img src="assets/twit-icon.png" alt="" /></li>
+          <li><img src="assets/gp-icon.png" alt="" /></li>
+          <li><img src="assets/insta-icon.png" alt="" /></li>
+          <li><img src="assets/flic-icon.png" alt="" /></li>
+          <li><img src="assets/pint-icon.png" alt="" /></li>
+          <div id="nav-space">
+            <li><img src="assets/rss-icon.png" alt="" /></li>
+            <li><img src="assets/mail-icon.png" alt="" /></li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <hr />
+
+      <section class="twelve columns" id="article">
+        <div id="title-box">
+          <h2>Article Title</h2>
+          <h3>Article Subtext</h3>
+          <button>Print</button>
+        </div>
+        <div id="image-box">
+          <img src="assets/choco-pizza.png" alt="" />
+        </div>
+        <div id="article-text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="container" id="recipe-background">
+          <ul>
+            <li>FB</li>
+            <li>TW</li>
+            <li>GP</li>
+            <li>IN</li>
+            <li>FLI</li>
+            <li>PI</li>
+            <li>RS</li>
+            <li>EM</li>
+          </ul>
+        </div>
+      </section>
+      <hr>
+
+      <section id="about-author">
+        <img src="assets/van-pic.png" alt="" />
+        <h3>Vanessa Stevenson</h3>
+        <p>
+          Food enthusiast
+        </p>
+        <button type="button">SHARE RECIPE</button>
+      </section>
+
+    </main>
+
+
+    <footer class="container">
+
+      <img src="assets/small-logo.png" alt="" />
+      <p>
+        Delicious 2013. All rights reserved
+      </p>
+      <p>
+        Proudly published with Steph and Dan
+      </p>
+
+    </footer>
   <script src="js/app.js" charset="utf-8"></script>
   </body>
 </html>
