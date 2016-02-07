@@ -44,15 +44,42 @@ img {
 hr {
 	border-top: 10px solid gray;
 }
+#article img{
+  width: 100%
+}
+#recipe-background{
+  background-image: url("../assets/list-bg.png");
+  background-repeat: repeat-y;
+}
+#article-text p{
+  text-indent: 30px;
+}
 
-
-hr.style15:after {
-	content: '\002665';
-	display: inline-block;
-	position: relative;
-	top: -15px;
-	padding: 0 10px;
-	background: #f0f0f0;
-	color: #8c8b8b;
-	font-size: 18px;
+footer hr:after {
+    background: url('../assets/small-logo.png') no-repeat top center;
+    content: "";
+    display: block;
+    height: 30px; /* height of the ornament */
+    position: relative;
+    top: -15px; /* half the height of the ornament */
+}
+footer hr{
+  border-top: 1px solid rgba(156, 156, 156, .3);
+}
+footer p{
+  color: lightgray;
+  text-align: center;
+}
+#share-button{
+  background-color: rgb(186, 113, 88);
+  color: white;
+}
+#author-text{
+  float: left;
+  padding-left: 10px;
+  max-width: 75%;
+}
+.todo-list{
+  padding: 4% 10%;
+  line-height: 1.4;
 }
